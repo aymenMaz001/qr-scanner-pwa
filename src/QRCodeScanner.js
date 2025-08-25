@@ -1,5 +1,5 @@
 import React, { useState, useRef, useEffect } from 'react';
-import { Camera, RotateCcw, Settings, Zap, ZapOff } from 'lucide-react';
+import { Camera, RotateCcw, Zap, ZapOff } from 'lucide-react';
 
 const QRCodeScanner = () => {
   const videoRef = useRef(null);
