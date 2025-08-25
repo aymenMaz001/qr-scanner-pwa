@@ -186,7 +186,7 @@ const QRCodeScanner = () => {
     if (isScanning) {
       scanFrame();
     }
-  }, [isScanning,scanFrame]);
+  }, [isScanning]);
 
   // Nettoyer les ressources
   useEffect(function() {
